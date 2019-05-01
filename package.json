@@ -1,0 +1,31 @@
+{
+  "name": "dad-norris",
+  "version": "1.0.0",
+  "description": "Dad Norris - an app that texts my dad Chuck Norris jokes everyday",
+  "main": "app.js",
+  "scripts": {
+    "start": "nod ./app.js",
+    "dev": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clirette/dad-norris.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clirette/dad-norris/issues"
+  },
+  "homepage": "https://github.com/clirette/dad-norris#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cron": "^1.6.0",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "nexmo": "^2.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
