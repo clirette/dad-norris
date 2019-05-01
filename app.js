@@ -23,7 +23,7 @@ const sendText = () => {
   .catch(error => console.log(error));
 }
 
-new CronJob('45 50 22 * * *', sendText, null, true, 'America/Chicago');
+new CronJob('0 0 10 * * *', sendText, null, true, 'America/Chicago');
 
 const port = process.env.PORT || 8000;
 app.listen(port, () => console.log('App Started'));
